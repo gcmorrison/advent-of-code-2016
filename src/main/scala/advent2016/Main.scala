@@ -6,6 +6,6 @@ package advent2016
 object Main extends App {
   println("Hello World")
 
-  FileReader.readFileByLine("src/main/resources/testFile.txt") foreach(println(_))
-  FileReader.readFileByChar("src/main/resources/testFile.txt") foreach(println(_))
+  FileReader.readFileByLine("src/test/resources/testFile.txt") foreach(println(_))
+  FileReader.readFileByChar("src/test/resources/testFile.txt") foreach(println(_))
 }
