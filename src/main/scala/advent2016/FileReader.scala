@@ -10,5 +10,5 @@ object FileReader {
 
   def readFileByChar(filePath: String): Iterator[Char] = getFile(filePath)
 
-  def getFile(filePath: String) = Source.fromFile(filePath)
+  private def getFile(filePath: String) = Source.fromFile(filePath)
 }
