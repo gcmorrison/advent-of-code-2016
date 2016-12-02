@@ -8,3 +8,5 @@ trait Turning
 object Left extends Turning
 
 object Right extends Turning
+
+object Forward extends Turning
