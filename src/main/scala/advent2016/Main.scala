@@ -11,6 +11,7 @@ import advent2016.day5.ChessHash
   */
 object Main extends App {
   val runAll = false
+  val runLongChallenges = false
 
   if (runAll) {
     // Day1
@@ -28,8 +29,12 @@ object Main extends App {
     // Day4
     ObscureSecure.part1("src/test/resources/day4/input1.txt")
     ObscureSecure.part2("src/test/resources/day4/input1.txt")
+
+    if (runLongChallenges) {
+      // Day5: Too slow, must optimise!
+      ChessHash.part1("ffykfhsq")
+      ChessHash.part2("ffykfhsq")
+    }
   }
 
-  // Day5
-  ChessHash.part1("ffykfhsq")
 }
