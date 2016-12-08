@@ -5,6 +5,7 @@ import advent2016.day2.BathroomSecurity
 import advent2016.day3.TriangleMath
 import advent2016.day4.ObscureSecure
 import advent2016.day5.ChessHash
+import advent2016.day6.NoisySignals
 
 /**
   * Created by campbell on 2016/11/23.
@@ -36,5 +37,9 @@ object Main extends App {
       ChessHash.part2("ffykfhsq")
     }
   }
+
+  // Day6
+  NoisySignals.part1("src/test/resources/day6/input1.txt")
+  NoisySignals.part2("src/test/resources/day6/input1.txt")
 
 }
