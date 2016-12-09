@@ -45,4 +45,5 @@ object Main extends App {
 
   // Day7
   IPv7.part1("src/test/resources/day7/input1.txt")
+  IPv7.part2("src/test/resources/day7/input1.txt")
 }
