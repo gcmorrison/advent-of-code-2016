@@ -7,6 +7,7 @@ import advent2016.day4.ObscureSecure
 import advent2016.day5.ChessHash
 import advent2016.day6.NoisySignals
 import advent2016.day7.IPv7
+import advent2016.day8.TwoFactorAuth
 
 /**
   * Created by campbell on 2016/11/23.
@@ -41,9 +42,12 @@ object Main extends App {
     // Day6
     NoisySignals.part1("src/test/resources/day6/input1.txt")
     NoisySignals.part2("src/test/resources/day6/input1.txt")
+
+    // Day7
+    IPv7.part1("src/test/resources/day7/input1.txt")
+    IPv7.part2("src/test/resources/day7/input1.txt")
   }
 
-  // Day7
-  IPv7.part1("src/test/resources/day7/input1.txt")
-  IPv7.part2("src/test/resources/day7/input1.txt")
+  // Day8
+  TwoFactorAuth.part1("src/test/resources/day8/input1.txt")
 }
