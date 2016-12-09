@@ -50,4 +50,5 @@ object Main extends App {
 
   // Day8
   TwoFactorAuth.part1("src/test/resources/day8/input1.txt")
+  TwoFactorAuth.part2("src/test/resources/day8/input1.txt")
 }
