@@ -1,6 +1,7 @@
 package advent2016
 
 import advent2016.day1.TaxiCab
+import advent2016.day10.BalanceBots
 import advent2016.day2.BathroomSecurity
 import advent2016.day3.TriangleMath
 import advent2016.day4.ObscureSecure
@@ -51,9 +52,12 @@ object Main extends App {
     // Day8
     TwoFactorAuth.part1("src/test/resources/day8/input1.txt")
     TwoFactorAuth.part2("src/test/resources/day8/input1.txt")
+
+    // Day9
+    ExperimentalCompression.part1("src/test/resources/day9/input1.txt")
+    ExperimentalCompression.part2("src/test/resources/day9/input1.txt")
   }
 
-  // Day9
-  ExperimentalCompression.part1("src/test/resources/day9/input1.txt")
-  ExperimentalCompression.part2("src/test/resources/day9/input1.txt")
+  // Day10
+  BalanceBots.part1("src/test/resources/day10/input1.txt")
 }
